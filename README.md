@@ -17,6 +17,6 @@ No assigned devlog this week.
 
 ## W3
 ### Activity 1
-
+<img width="2426" height="3089" alt="8716e53e-f9ae-47ba-99a1-ec7107c2baf3" src="https://github.com/user-attachments/assets/133c5932-feab-4528-9e50-8355f3066c54" />
 
 ### Activity 2
