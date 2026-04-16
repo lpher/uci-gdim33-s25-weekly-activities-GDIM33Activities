@@ -12,9 +12,11 @@
 ### Activity 2
 ![03bdfc53-8a6c-4e1b-833b-233a806c11ed](https://github.com/user-attachments/assets/8d5f0f73-d1f1-4413-b90c-636ff65fc6ae)
 
-
-
 ## W2
-Write your W2 Devlog here.
+No assigned devlog this week.
 
-Continue adding additional headers below this one for future weeks and future activities.
+## W3
+### Activity 1
+
+
+### Activity 2
