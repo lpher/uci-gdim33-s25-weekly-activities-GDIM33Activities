@@ -54,3 +54,8 @@ Playtest Notes:
 - Fix being able to move while dodging
 
 ### Activity 2
+1. Yes, a designer could add more dialogue without writing code because we incorporated dialogue into scriptable objects before hand.
+
+2. There isn't a set limit of dialogue nodes the writer could create without code, however, the screen can only show so many options, so eventually the dialogue options will, while being present, won't actually show up on your screen unless you change the scale of UI elemnets.
+
+3. The "Regenerate Nodes" button updates the Node Library so members can be used as nodes.
