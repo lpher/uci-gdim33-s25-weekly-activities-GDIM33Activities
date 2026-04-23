@@ -37,5 +37,20 @@ Playtesting Goals: Testing the dodge roll
 - Is it too responsive or not responsive enough? Does it trigger when I accidentally hit the space bar while trying to sprint?
 
 Playtest Team Members:
+- Sebastion
+- Rebecca Feng
+- Frances Kim
+- Kaleb Reyes
+- Jess
 
 Playtest Notes:
+- Fix idle to sprint transition
+- Camera too low at hip, should be at shoulders
+- Dodge roll too slow/heavy, should be faster and more fluid
+- Edit keyframes to make faster
+- Add cursor lock
+- Fix burst of speed when transitioning from jog/sprint to dodge
+- Fix diagonal dodge
+- Fix being able to move while dodging
+
+### Activity 2
