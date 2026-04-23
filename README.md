@@ -27,3 +27,15 @@ No assigned devlog this week.
 3. It depends on if I can add a lock-on system so that the player can better target the enemy. If I can, then the Set Cursor Lock State would be relevant, but if I can’t, then it wouldn’t be. With the lock-on system, the camera, controlled by the cursor, would be locked on the enemy so that you are always facing them. It is similar to the cursor being locked when you enter the dialogue state when interacting with the walrus, but because the player in my game will still be able to move, the lock-on system will need some sort of tracking system to track the enemy as well as the cursor lock. Having this system will also make player attacks more accurate, which is a nice thing to have but potentially not necessary.
 
 4. I don’t think a game state, or at least the switching between game states, will be relevant to my vertical slice. My vision of the game only includes a fighting state. What I mean by this is that the player will spawn in and fight the enemy until one of them dies. I’m more focused on the fighting aspect for this vertical slice rather than the story, so I don’t think I’ll be adding any exchanging dialogue that requires a dialogue game state.
+
+## W4
+### Activity 1
+Playable: The player can move with WASD across x and z-axes. They can also move diagonally too. The player can jog with WASD and sprint with SHIFT. Additionally, the player can perform a dodge roll with SPACE.
+
+Playtesting Goals: Testing the dodge roll
+- Is the dodge roll responsive? Does it trigger when I press the space bar?
+- Is it too responsive or not responsive enough? Does it trigger when I accidentally hit the space bar while trying to sprint?
+
+Playtest Team Members:
+
+Playtest Notes:
