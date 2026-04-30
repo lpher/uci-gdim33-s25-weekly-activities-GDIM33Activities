@@ -59,3 +59,20 @@ Playtest Notes:
 2. There isn't a set limit of dialogue nodes the writer could create without code, however, the screen can only show so many options, so eventually the dialogue options will, while being present, won't actually show up on your screen unless you change the scale of UI elemnets.
 
 3. The "Regenerate Nodes" button updates the Node Library so members can be used as nodes.
+
+## W5
+### Activity 1
+- Basic Steps:
+	1. Make Enemy move towards Player using NavMesh.
+	2. Make Enemy transition between Moving and Attacking at certain distances from Player.
+
+- Detailed Steps:
+	1. Install AI Navigation package. Under GameObject, click AI → NavMesh Surface. This creates a NavMesh Surface GameObject. In its Inspector, click Bake. You should see the ground be highlighted in a light blue.
+	2. Create your Enemy GameObject and add a NavMesh Agent Component to it. Create a Movement Script/Graph and make it move the Enemy towards the Player’s position using its NavMesh Agent. Ensure the “Agent Type” field in both the NavMesh Agent and NavMesh Surface are the same for the Enemy. The Enemy should now track and follow the Player wherever they go.
+	3. Create a Raycast for Enemy to check distance from Player. In Scene, when clicking on the Enemy GameObject, the Raycast should appear.
+	4. Create a State Machine Graph for Enemy with Moving and Attacking states.
+	5. Configure the transitions so that they are triggered by whether the Enemy’s Raycast hits the Player. Test with debug logs.
+	6. Make Enemy stop moving in its Attacking State (when Raycast hits Player) and resume moving in its Moving State (when Raycast no longer hits Player). Test this in the Scene.
+
+### Activity 2
+I created a simple Enemy GameObject and added a NavMeshAgent component to it. I then created a NavMesh Surface in the scene and baked it. After that, I added a Script Machine Component to the Enemy and created a new movement graph that makes  it move towards the player using its NavMeshAgent. I set the target to GameObjects with the "Player" tag" for the NavMeshAgent. When I play the scene, the enemy successfully moves towards the player using the NavMesh.
