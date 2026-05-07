@@ -76,3 +76,17 @@ Playtest Notes:
 
 ### Activity 2
 I created a simple Enemy GameObject and added a NavMeshAgent component to it. I then created a NavMesh Surface in the scene and baked it. After that, I added a Script Machine Component to the Enemy and created a new movement graph that makes  it move towards the player using its NavMeshAgent. I set the target to GameObjects with the "Player" tag" for the NavMeshAgent. When I play the scene, the enemy successfully moves towards the player using the NavMesh.
+
+## W6
+### Activity 1
+1. I have not been able to implement anything new since milestone 1 because of other projects I have been working on.
+2. For now I will link my milestone 1 itch build since that is what I will have people playtest today. I want to note that I did turn in milestone 1 in late. [Link.](https://lpher.itch.io/gdim-33-verticle-slice-milestone-1)
+3. My playtesting goals are:
+    - To test feel of newly added attacks and how it flows between movement and rolling
+	- To test feel of camera and how it follows the player
+	- To test feel of rolling and how it flows between movement and attacking
+	- I changed a lot of these values based off of the previous playtesting feedback, so I want to see if the changes I made improved the feel of the game
+4. Playtesting notes:
+    - 
+
+### Activity 2
