@@ -87,5 +87,9 @@ I created a simple Enemy GameObject and added a NavMeshAgent component to it. I 
 	- To test feel of rolling and how it flows between movement and attacking
 	- I changed a lot of these values based off of the previous playtesting feedback, so I want to see if the changes I made improved the feel of the game
 4. Playtesting notes:
-    -
+    - Roll and sprinting feel better than first playtest
+	- Should be able to move slightly or slower when attacking, not be locked in place
+	- Add some sort of lock on
+	- Exit transitions should be faster
+	- Camera sense too high
 ### Activity 2
