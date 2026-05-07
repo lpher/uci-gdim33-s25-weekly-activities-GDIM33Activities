@@ -92,4 +92,9 @@ I created a simple Enemy GameObject and added a NavMeshAgent component to it. I 
 	- Add some sort of lock on
 	- Exit transitions should be faster
 	- Camera sense too high
+
 ### Activity 2
+1. I assume the Multiply blend option makes color darker and less saturated because it multiplies mainly decimal values togethor that result in a smaller decimal value which are synomumous with darker and less saturated colors.
+1. Multiplying two Alphas would also probably result in a more transparent color because its value is also based off the 0.0-1.0 value range, so multiplying two Alphas with decimal values less than 1 will result in a lower value which is equal to something less transparent.
+1. Unity gets UV values from the texture.
+1. It sounds interesting to manipulate colors with math.
