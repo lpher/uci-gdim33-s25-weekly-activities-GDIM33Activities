@@ -95,6 +95,18 @@ I created a simple Enemy GameObject and added a NavMeshAgent component to it. I 
 
 ### Activity 2
 1. I assume the Multiply blend option makes color darker and less saturated because it multiplies mainly decimal values togethor that result in a smaller decimal value which are synomumous with darker and less saturated colors.
-1. Multiplying two Alphas would also probably result in a more transparent color because its value is also based off the 0.0-1.0 value range, so multiplying two Alphas with decimal values less than 1 will result in a lower value which is equal to something less transparent.
-1. Unity gets UV values from the texture.
-1. It sounds interesting to manipulate colors with math.
+2. Multiplying two Alphas would also probably result in a more transparent color because its value is also based off the 0.0-1.0 value range, so multiplying two Alphas with decimal values less than 1 will result in a lower value which is equal to something less transparent.
+3. Unity gets UV values from the texture.
+4. It sounds interesting to manipulate colors with math.
+
+## W7
+### Activity 1
+1. The data for the Vertex Color node came from the Shiba’s mesh.
+2. The Shiba is blended to obtain the specific colors it now has. There are three main vertices, each associated with their own color being red, blue, and green. They are arranged in a triangle where values in between the three points can give different mixes of colors resulting in new colors other than the main three. This is what the Shiba does in order to obtain its blend of specific colors.
+3. The Shiba colored with vertex color appears less detailed than the Shiba rendered with a texture because vertex colors use data from the mesh, which includes the number of vertices and triangles a mesh has. Depending on the number of vertices the vertex color can use, the colored mesh may appear less or more detailed. Since textures don’t rely on the mesh’s vertex data, they are not limited by vertex count.
+   
+   Vertex color could be useful for low poly games not meant to look good but to run well.
+4. There is a patch on the left hind leg that is not the color it should be.
+5. I can imagine testing any of the other data under the vertices list in the Shiba’s model like the tangent, position, or UV.
+6. That error on the back could be because the shiba’s normal vectors in that one spot are pointing away from itself.
+7. Additive sounds like we’re adding something, but I’m not sure what. From what I observed when setting the Blend Mode to Additive, the graph clears all of the darker black spots on the texture. I’m guessing it has something to do with the value of the color black.
