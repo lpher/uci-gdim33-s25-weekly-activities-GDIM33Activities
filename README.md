@@ -110,3 +110,29 @@ I created a simple Enemy GameObject and added a NavMeshAgent component to it. I 
 5. I can imagine testing any of the other data under the vertices list in the Shiba’s model like the tangent, position, or UV.
 6. That error on the back could be because the shiba’s normal vectors in that one spot are pointing away from itself.
 7. Additive sounds like we’re adding something, but I’m not sure what. From what I observed when setting the Blend Mode to Additive, the graph clears all of the darker black spots on the texture. I’m guessing it has something to do with the value of the color black.
+
+## W8
+### Activity 1
+1. New Features:
+   - New attack system architecture
+   - Rolling animations have events that turn off and on a separate collider for invincibility frames
+   - Attack animations have events turning on and off a separate collider
+   - Attacks have damage values
+   - Enemy has a health value
+   - Enemy health has a UI
+   - Damage dealt and accumulated on enemy is tracked and displayed on the UI
+   - Implemented toggleable lock on system with a second virtual cinemachine camera that looks at the enemy
+   - If locked on and is attacking, player and their attacks will be directed straight towards enemy automatically
+
+2. [Itch Link](https://lpher.itch.io/gdim-33-vertical-slice-playtest-3)
+
+3. Playtesting Goals:
+   - Get feedback on new features
+
+4. Playtesting Notes:
+   - Player freezes sometimes when spamming attacks
+   - Rolling into the enemy repeatedly translates the player upwards
+   - When locked on, make camera follow player faster
+   - Player can phase through enemy when performing first attack
+
+### Activity 2C
