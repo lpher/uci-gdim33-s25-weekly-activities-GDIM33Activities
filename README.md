@@ -136,3 +136,7 @@ I created a simple Enemy GameObject and added a NavMeshAgent component to it. I 
    - Player can phase through enemy when performing first attack
 
 ### Activity 2C
+1. Full Screen Pass. It displays the effect across the whole screen.
+2. The screen looks like it has the material on but with a lowered transparency when the Lerp is set to 0.5. At zero, the material is completely transparent. At 1, the material is fully untransparent.
+3. The Lerp is taking the image projected by the Sample Buffer and the Sample Texture and blending them based on the different float values. A float value zero is basically the Sample Buffer by itself and a float value of 1 would be the Sample Texture by itself. Any float value in between 0 and 1 would project a corresponding image in between the two images.
+4. Lerp uses (sin(time)+1)/2 because Lerp can only properly take values from 0 to 1, which are positive numbers, but sin(time) goes into the negatives. Using (sin(time)+1)/2 moves the values all into the positives allowing Lerp to properly use them.
