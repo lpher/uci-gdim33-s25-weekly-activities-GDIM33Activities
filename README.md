@@ -156,6 +156,7 @@ How I might implement it:
 Speaking off my knowledge of visual scripting, I would create a graph that set the values for saturation, bloom, and vignette when the player enters Dead Eye mode. I would also create a transition that would make the changes to these values smooth rather than instant. I would also have the graph reset the values back to normal when the player exits Dead Eye mode.
 
 ### Actiivity 2
+<img width="1918" height="1197" alt="image" src="https://github.com/user-attachments/assets/9723449f-905d-4765-a1c2-97c5598f31ad" />
 
 Problem I solved:
 
