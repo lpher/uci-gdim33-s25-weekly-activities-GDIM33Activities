@@ -152,4 +152,5 @@ Features:
   - Adds a vignette
 
 How I might implement it:
+
 Speaking off my knowledge of visual scripting, I would create a graph that set the values for saturation, bloom, and vignette when the player enters Dead Eye mode. I would also create a transition that would make the changes to these values smooth rather than instant. I would also have the graph reset the values back to normal when the player exits Dead Eye mode.
