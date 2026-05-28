@@ -140,3 +140,16 @@ I created a simple Enemy GameObject and added a NavMeshAgent component to it. I 
 2. The screen looks like it has the material on but with a lowered transparency when the Lerp is set to 0.5. At zero, the material is completely transparent. At 1, the material is fully untransparent.
 3. The Lerp is taking the image projected by the Sample Buffer and the Sample Texture and blending them based on the different float values. A float value zero is basically the Sample Buffer by itself and a float value of 1 would be the Sample Texture by itself. Any float value in between 0 and 1 would project a corresponding image in between the two images.
 4. Lerp uses (sin(time)+1)/2 because Lerp can only properly take values from 0 to 1, which are positive numbers, but sin(time) goes into the negatives. Using (sin(time)+1)/2 moves the values all into the positives allowing Lerp to properly use them.
+
+## W9
+### Activity 1
+Chosen game: Red Dead Redemption 2
+
+Features: 
+- Dead Eye mechanic
+  - Decreases saturation
+  - Increases bloom
+  - Adds a vignette
+
+How I might implement it:
+Speaking off my knowledge of visual scripting, I would create a graph that set the values for saturation, bloom, and vignette when the player enters Dead Eye mode. I would also create a transition that would make the changes to these values smooth rather than instant. I would also have the graph reset the values back to normal when the player exits Dead Eye mode.
