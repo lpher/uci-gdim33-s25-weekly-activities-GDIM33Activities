@@ -158,4 +158,5 @@ Speaking off my knowledge of visual scripting, I would create a graph that set t
 ### Actiivity 2
 
 Problem I solved:
+
 Its unrelated to shader graphs but, I had this problem with animation events on the player attacks where this EndAttack event that sets a varible, isAttacking, to false was never called, so the player wouldn't be able to transition out of the attacking state and become stuck in place unable to do anything as the enemy kept hitting them. I believe I solved it by making the event be called earlier in the animation, but it is hard to reproduce this bug so its hard to say.
