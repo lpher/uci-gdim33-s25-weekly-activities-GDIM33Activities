@@ -154,3 +154,8 @@ Features:
 How I might implement it:
 
 Speaking off my knowledge of visual scripting, I would create a graph that set the values for saturation, bloom, and vignette when the player enters Dead Eye mode. I would also create a transition that would make the changes to these values smooth rather than instant. I would also have the graph reset the values back to normal when the player exits Dead Eye mode.
+
+### Actiivity 2
+
+Problem I solved:
+Its unrelated to shader graphs but, I had this problem with animation events on the player attacks where this EndAttack event that sets a varible, isAttacking, to false was never called, so the player wouldn't be able to transition out of the attacking state and become stuck in place unable to do anything as the enemy kept hitting them. I believe I solved it by making the event be called earlier in the animation, but it is hard to reproduce this bug so its hard to say.
