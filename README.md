@@ -161,3 +161,20 @@ Speaking off my knowledge of visual scripting, I would create a graph that set t
 Problem I solved:
 
 Its unrelated to shader graphs but, I had this problem with animation events on the player attacks where this EndAttack event that sets a varible, isAttacking, to false was never called, so the player wouldn't be able to transition out of the attacking state and become stuck in place unable to do anything as the enemy kept hitting them. I believe I solved it by making the event be called earlier in the animation, but it is hard to reproduce this bug so its hard to say.
+
+## W10
+### Activity 1
+[Itch Link.](https://lpher.itch.io/gdim-33-vertical-slice-playtest-6)
+
+Playtesting Goals:
+- Get feedback on new features and overall feel of the game now that the gameplay loop is somewhat finished
+
+Playtesting Notes:
+- Make player not phase through enemy when attacking
+- More recovery time after enemy's first hit
+- Buff rolling by giving more i-frames and making it more responsive
+- Felt familar to a souls-like game, but different
+- No major animation when healing makes the game feel more fast pace
+
+### Activity 2
+A strategy a student could follow to engineer a game in a limited amount of time would be to list out everything they think would be part of the game. The goal is to have everything laid out for you to visually see. Then from there, they can take out any unnecessary systems and identify vital systems needed for development. Then frmo there they can brainstorm on how they would interact and connect to other systems.
