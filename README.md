@@ -178,3 +178,8 @@ Playtesting Notes:
 
 ### Activity 2
 A strategy a student could follow to engineer a game in a limited amount of time would be to list out everything they think would be part of the game. The goal is to have everything laid out for you to visually see. Then from there, they can take out any unnecessary systems and identify vital systems needed for development. Then frmo there they can brainstorm on how they would interact and connect to other systems.
+
+### Activity 3
+[Commit Link.](https://github.com/lpher/GDIM-33-Vertical-Slice/commit/a40e9ab8b5de2bcec2025ce5151e62b83e8f465b)
+
+I played with lighting settings to simulate the night and added rain for atmosphere.
